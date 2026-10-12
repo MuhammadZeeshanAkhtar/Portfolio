@@ -1,0 +1,75 @@
+import type { SkillGroup } from '../types';
+
+/** Source: LinkedIn Skills (23), CV "Technical Skills" and the tech used in the projects. */
+export const skills: SkillGroup[] = [
+  {
+    id: 'ai-ml',
+    title: 'AI / ML',
+    skills: [
+      'Machine Learning',
+      'Deep Learning',
+      'NLP',
+      'Computer Vision',
+      'Sentiment Analysis',
+      'Emotion Recognition',
+      'Multimodal AI',
+      'TensorFlow',
+      'Keras',
+      'PyTorch',
+      'Scikit-learn',
+      'Transformers (RoBERTa)',
+      'OpenCV',
+      'Librosa',
+    ],
+  },
+  {
+    id: 'agents',
+    title: 'Agents & Automation',
+    skills: [
+      'LLMs',
+      'Agentic AI Development',
+      'RAG',
+      'Prompt Engineering',
+      'LangGraph',
+      'LangChain',
+      'n8n',
+      'Embeddings',
+      'Vector Databases',
+      'Workflow Automation',
+    ],
+  },
+  {
+    id: 'backend',
+    title: 'Backend',
+    skills: ['Python', 'FastAPI', 'Flask', 'REST APIs', 'tRPC', 'Express', 'Pydantic', 'Zod'],
+  },
+  {
+    id: 'frontend',
+    title: 'Frontend',
+    skills: ['React.js', 'TypeScript', 'JavaScript', 'Tailwind CSS', 'Vite', 'HTML5', 'CSS3'],
+  },
+  {
+    id: 'data',
+    title: 'Data / DB',
+    skills: [
+      'SQL',
+      'PostgreSQL',
+      'MySQL',
+      'SQLite',
+      'MongoDB',
+      'Supabase',
+      'Drizzle ORM',
+      'Pandas',
+      'NumPy',
+      'Matplotlib',
+      'ETL & Data Pipelines',
+      'EDA',
+      'Data Visualization',
+    ],
+  },
+  {
+    id: 'tools',
+    title: 'Tools',
+    skills: ['Git', 'GitHub', 'VS Code', 'Jupyter', 'Google Colab', 'Postman', 'Vitest', 'Streamlit', 'C++'],
+  },
+];
