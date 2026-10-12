@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Muhammad Zeeshan Akhtar | Software Engineer, AI &amp; Machine Learning</title>
+    <meta
+      name="description"
+      content="Portfolio of Muhammad Zeeshan Akhtar, Software Engineer (AI & Machine Learning) building AI agents, workflow automation, multimodal ML systems and full-stack AI products."
+    />
+    <meta name="author" content="Muhammad Zeeshan Akhtar" />
+    <meta name="theme-color" content="#F6FBE9" />
+    <link rel="canonical" href="%VITE_SITE_URL%/" />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <link rel="apple-touch-icon" href="./apple-touch-icon.png" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Muhammad Zeeshan Akhtar" />
+    <meta property="og:title" content="Muhammad Zeeshan Akhtar | Software Engineer, AI & Machine Learning" />
+    <meta
+      property="og:description"
+      content="AI agents, workflow automation, multimodal ML and full-stack AI products. Case studies, experience and contact."
+    />
+    <meta property="og:url" content="%VITE_SITE_URL%/" />
+    <meta property="og:image" content="%VITE_SITE_URL%/assets/og-image.jpg" />
+    <meta property="og:image:width" content="1584" />
+    <meta property="og:image:height" content="396" />
+    <meta property="og:image:alt" content="Muhammad Zeeshan Akhtar, Software Engineer, AI & Machine Learning" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Muhammad Zeeshan Akhtar | Software Engineer, AI & Machine Learning" />
+    <meta name="twitter:description" content="AI agents, workflow automation, multimodal ML and full-stack AI products." />
+    <meta name="twitter:image" content="%VITE_SITE_URL%/assets/og-image.jpg" />
+
+    <!-- Hero photo (largest contentful paint). Must match the <img> srcset/sizes in src/sections/Hero.tsx. -->
+    <link
+      rel="preload"
+      as="image"
+      type="image/webp"
+      href="./assets/zeeshan-480.webp"
+      imagesrcset="./assets/zeeshan-480.webp 480w, ./assets/zeeshan-720.webp 720w"
+      imagesizes="(min-width: 1024px) 400px, 352px"
+      fetchpriority="high"
+    />
+
+    <!-- Apply the saved theme before first paint. Storage may be blocked, so guard every access. -->
+    <script>
+      (function () {
+        var theme = null;
+        try {
+          theme = window.localStorage.getItem('mza-theme');
+        } catch (e) {}
+        var dark =
+          theme === 'dark' ||
+          (theme !== 'light' && window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches);
+        if (dark) document.documentElement.classList.add('dark');
+      })();
+    </script>
+  </head>
+  <body>
+    <noscript>
+      <p style="padding: 16px; font-family: sans-serif">
+        This portfolio needs JavaScript. You can reach Muhammad Zeeshan Akhtar on LinkedIn:
+        <a href="https://www.linkedin.com/in/muhammadzeeshanakhtar/">linkedin.com/in/muhammadzeeshanakhtar</a>
+      </p>
+    </noscript>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
