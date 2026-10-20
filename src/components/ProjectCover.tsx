@@ -14,7 +14,7 @@ const categoryStyle: Record<ProjectCategory, { icon: LucideIcon; bg: string; chi
     chip: 'bg-white/10 text-white border-white/15',
     iconWrap: 'bg-lime text-ink',
   },
-  'Full-Stack': {
+  'Full-Stack Web & Apps': {
     icon: Layers,
     bg: 'bg-[#E4F2BC] text-ink dark:bg-[#26301A] dark:text-white',
     chip: 'bg-white/80 text-ink border-ink/10 dark:bg-white/10 dark:text-white dark:border-white/15',

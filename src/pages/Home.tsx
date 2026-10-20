@@ -1,7 +1,7 @@
 import { useDocumentTitle } from '../lib/useDocumentTitle';
 import { About } from '../sections/About';
 import { Contact } from '../sections/Contact';
-import { Credentials } from '../sections/Credentials';
+import { Certificates } from '../sections/Certificates';
 import { Education } from '../sections/Education';
 import { Experience } from '../sections/Experience';
 import { FeaturedProject } from '../sections/FeaturedProject';
@@ -19,7 +19,7 @@ export default function Home() {
       <Projects />
       <Experience />
       <Skills />
-      <Credentials />
+      <Certificates />
       <Education />
       <Contact />
     </>

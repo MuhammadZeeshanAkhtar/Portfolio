@@ -20,16 +20,16 @@ function VerifyLink({ cert }: { cert: Certification }) {
   );
 }
 
-export function Credentials() {
+export function Certificates() {
   const featured = certifications.filter((c) => c.highlight);
   const rest = certifications.filter((c) => !c.highlight);
 
   return (
-    <section id="credentials" aria-labelledby="credentials-title" className="bg-bg-soft py-20 sm:py-24">
+    <section id="certificates" aria-labelledby="certificates-title" className="bg-bg-soft py-20 sm:py-24">
       <div className="container-page">
         <SectionHeading
-          id="credentials-title"
-          eyebrow="Achievements & certifications"
+          id="certificates-title"
+          eyebrow="Certificates"
           title="Recognition and *learning*"
           description={`${certifications.length} certifications from NAVTTC, DeepLearning.AI, Stanford, IBM, Google and more, with links to verify them.`}
         />

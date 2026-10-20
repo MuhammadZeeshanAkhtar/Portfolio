@@ -11,9 +11,11 @@ export const experience: Experience[] = [
     period: 'Jan 2026 – Present',
     location: 'Remote',
     current: true,
-    summary:
-      'Software engineering for a UK-based company building modern consumer brands and e-commerce experiences.',
-    highlights: ['TODO: add 2–3 bullet points about your work at U-JOY (LinkedIn has no description yet)'],
+    summary: '',
+    highlights: [
+      'Building the U-JOY Limited company website.',
+      'Managing the website day to day: updates, content and maintenance.',
+    ],
     skills: [],
   },
   {
@@ -21,17 +23,17 @@ export const experience: Experience[] = [
     role: 'AI Engineer',
     company: 'Sigma Evolution',
     type: 'Internship',
-    period: 'Aug 2026 – Present',
+    period: 'Aug 2026 – Oct 2026 · 3 months',
     location: 'Islamabad, Pakistan · On-site',
-    current: true,
-    summary: 'Building AI-powered full-stack web applications on industry-level, real-world projects.',
-    highlights: [
-      'Developed AI-powered full-stack web applications, integrating AI features, APIs and databases.',
-      'Integrated LLM-based features, including prompt engineering for user-facing AI workflows.',
-      'Built and consumed REST APIs to connect AI modules with application frontends.',
-      'Shipped SigmaWork (AI career studio) and building Zufishan (AI-powered Islamic LMS).',
+    current: false,
+    summary: '',
+    highlights: [],
+    skills: [],
+    projects: [
+      { projectId: 'zufishan-islamic-lms', label: 'Zufishan web application', repoUrl: 'https://github.com/MuhammadZeeshanAkhtar/Zufishan' },
+      { projectId: 'sigmawork-ai-career-studio', label: 'SigmaWork AI Career Studio', repoUrl: 'https://github.com/MuhammadZeeshanAkhtar/sigmawork-ai-modules' },
+      { projectId: 'nikahmate', label: 'NikahMate (Rishta) app', repoUrl: 'https://github.com/MuhammadZeeshanAkhtar/Rishta' },
     ],
-    skills: ['Artificial Intelligence', 'LLMs', 'RAG', 'Vector Databases', 'React.js', 'JavaScript', 'Data Science'],
   },
   {
     id: 'vortex-tech',

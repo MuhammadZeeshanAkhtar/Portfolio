@@ -14,6 +14,7 @@ Placeholders in `src/data/` start with `TODO:`. On the live site they appear as 
 | SigmaWork AI Career Studio | ✅ `sigmawork-ai-modules` | TODO | TODO |
 | Zufishan | ✅ `Zufishan` | TODO: fix `zufishan.vercel.app` first (it currently serves server code) | TODO |
 | Agri-Vision | TODO | TODO | TODO |
+| NikahMate | ✅ `Rishta` | TODO (app store / demo) | TODO |
 
 ## Text to confirm or fill in
 
@@ -21,7 +22,7 @@ Placeholders in `src/data/` start with `TODO:`. On the live site they appear as 
 - [ ] **"My role"** for the 3 new projects. Currently "Built the project: …". Confirm it's accurate (solo or team?).
 - [ ] **MindSense role:** add your specific contribution (which models or modules you built).
 - [ ] **Zufishan role:** add your specific contribution.
-- [ ] **U-JOY Limited:** 2–3 real bullet points about your work (`src/data/experience.ts`). LinkedIn has no description either.
+- [x] **U-JOY Limited:** now says you're building and managing the company website. Add more detail any time in `src/data/experience.ts`.
 - [ ] **MindSense tech stack:** the portfolio uses the stack from your posts and brief (TensorFlow/Keras, OpenCV, Librosa, MongoDB, Flask/FastAPI). LinkedIn's project lists a different one (TypeScript, Supabase, PyTorch, RoBERTa). Keep whichever is true.
 - [ ] **Agri-Vision dates:** LinkedIn says Feb–May 2025, but the NAVTTC training ran 12 May – 11 Aug 2025.
 

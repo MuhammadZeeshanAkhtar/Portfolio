@@ -1,4 +1,5 @@
-import { ArrowUpRight, Briefcase, MapPin } from 'lucide-react';
+import { ArrowRight, ArrowUpRight, Briefcase, Github, MapPin } from 'lucide-react';
+import { Link } from 'react-router-dom';
 import { Reveal } from '../components/Reveal';
 import { SectionHeading } from '../components/SectionHeading';
 import { TechTag } from '../components/TechTag';
@@ -41,7 +42,36 @@ export function Experience() {
                       </span>
                     </div>
                   </div>
-                  <p className="mt-4 text-sm text-muted sm:text-base">{job.summary}</p>
+                  {job.summary && <p className="mt-4 text-sm text-muted sm:text-base">{job.summary}</p>}
+                  {job.projects && job.projects.length > 0 && (
+                    <div className="mt-5">
+                      <h4 className="text-sm font-semibold">Projects</h4>
+                      <ul className="mt-2 grid grid-cols-1 gap-2">
+                        {job.projects.map((p) => (
+                          <li key={p.projectId} className="flex flex-wrap items-center justify-between gap-x-4 gap-y-1 rounded-xl border border-line bg-bg-soft px-4 py-2">
+                            <Link
+                              to={`/projects/${p.projectId}`}
+                              className="inline-flex min-h-11 items-center gap-1.5 text-sm font-semibold underline decoration-accent decoration-2 underline-offset-4 hover:decoration-fg"
+                            >
+                              {p.label}
+                              <ArrowRight aria-hidden="true" className="h-4 w-4" />
+                            </Link>
+                            {p.repoUrl && (
+                              <a
+                                href={p.repoUrl}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                aria-label={`${p.label} code on GitHub (opens in a new tab)`}
+                                className="inline-flex min-h-11 items-center gap-1.5 text-sm text-muted hover:text-fg"
+                              >
+                                <Github aria-hidden="true" className="h-4 w-4" /> GitHub
+                              </a>
+                            )}
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  )}
                   {visible(job.highlights).length > 0 && (
                     <ul className="mt-4 space-y-2">
                       {visible(job.highlights).map((h) => (

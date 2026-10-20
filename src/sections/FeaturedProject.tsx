@@ -1,4 +1,4 @@
-import { ArrowRight, Check, Star } from 'lucide-react';
+import { ArrowRight, Check, Star, Trophy } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { ProjectCover } from '../components/ProjectCover';
 import { Reveal } from '../components/Reveal';
@@ -15,7 +15,7 @@ export function FeaturedProject() {
   return (
     <section aria-labelledby="featured-title" className="pb-8">
       <div className="container-page">
-        <SectionHeading id="featured-title" eyebrow="Featured project" title="AI agents that *automate* real business work" />
+        <SectionHeading id="featured-title" eyebrow="Featured project" title="My key project: multimodal AI for *mental health*" />
         <Reveal>
           <article className="card grid grid-cols-1 overflow-hidden lg:grid-cols-[0.95fr_1.05fr]">
             <Link to={`/projects/${project.id}`} tabIndex={-1} aria-hidden="true" className="grid grid-cols-1">
@@ -27,6 +27,16 @@ export function FeaturedProject() {
               </p>
               <h3 className="text-2xl font-bold tracking-tight sm:text-3xl">{project.title}</h3>
               <p className="mt-3 text-base text-muted sm:text-lg">{project.tagline}</p>
+              {project.results.filter(Boolean).length > 0 && (
+                <ul aria-label="Results" className="mt-5 flex flex-wrap gap-2">
+                  {project.results.filter(Boolean).map((r) => (
+                    <li key={r} className="inline-flex items-center gap-2 rounded-full bg-ink px-3.5 py-1.5 text-sm font-semibold text-white ring-1 ring-white/10">
+                      <Trophy aria-hidden="true" className="h-4 w-4 text-lime" />
+                      {r}
+                    </li>
+                  ))}
+                </ul>
+              )}
               <ul className="mt-6 grid grid-cols-1 gap-2.5 sm:grid-cols-2">
                 {project.features.filter(Boolean).slice(0, 6).map((f) => (
                   <li key={f} className="flex gap-2.5 text-sm">

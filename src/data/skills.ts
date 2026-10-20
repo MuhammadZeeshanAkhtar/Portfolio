@@ -41,12 +41,12 @@ export const skills: SkillGroup[] = [
   {
     id: 'backend',
     title: 'Backend',
-    skills: ['Python', 'FastAPI', 'Flask', 'REST APIs', 'tRPC', 'Express', 'Pydantic', 'Zod'],
+    skills: ['Python', 'FastAPI', 'Flask', 'Fastify', 'REST APIs', 'tRPC', 'Express', 'Pydantic', 'Zod'],
   },
   {
     id: 'frontend',
-    title: 'Frontend',
-    skills: ['React.js', 'TypeScript', 'JavaScript', 'Tailwind CSS', 'Vite', 'HTML5', 'CSS3'],
+    title: 'Frontend & Mobile',
+    skills: ['React.js', 'React Native', 'Expo', 'TypeScript', 'JavaScript', 'Tailwind CSS', 'Vite', 'HTML5', 'CSS3'],
   },
   {
     id: 'data',
@@ -58,6 +58,7 @@ export const skills: SkillGroup[] = [
       'SQLite',
       'MongoDB',
       'Supabase',
+      'Row-Level Security (RLS)',
       'Drizzle ORM',
       'Pandas',
       'NumPy',
@@ -70,6 +71,6 @@ export const skills: SkillGroup[] = [
   {
     id: 'tools',
     title: 'Tools',
-    skills: ['Git', 'GitHub', 'VS Code', 'Jupyter', 'Google Colab', 'Postman', 'Vitest', 'Streamlit', 'C++'],
+    skills: ['Git', 'GitHub', 'pnpm', 'Automated Testing', 'Vitest', 'VS Code', 'Jupyter', 'Google Colab', 'Postman', 'Streamlit', 'C++'],
   },
 ];

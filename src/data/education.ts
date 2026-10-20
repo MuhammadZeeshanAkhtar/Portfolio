@@ -8,7 +8,7 @@ export const education: Education[] = [
     institution: 'International Islamic University, Islamabad (IIUI)',
     location: 'Islamabad, Pakistan',
     period: 'Sep 2022 – Sep 2026',
-    grade: 'CGPA 3.35',
+    grade: 'CGPA 3.36',
     details: [
       'Final Year Project: MindSense, Multimodal Depression Detection & Therapy System (1st Position, IIUI Career Expo 2026)',
     ],

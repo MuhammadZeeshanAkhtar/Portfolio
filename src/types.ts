@@ -33,7 +33,7 @@ export interface Profile {
   focusAreas: string[];
 }
 
-export type ProjectCategory = 'AI Agents' | 'Machine Learning' | 'Full-Stack';
+export type ProjectCategory = 'Full-Stack Web & Apps' | 'Machine Learning' | 'AI Agents';
 export type ProjectStatus = 'Completed' | 'In progress' | 'Live';
 
 export interface ArchitectureStep {
@@ -87,6 +87,8 @@ export interface Experience {
   highlights: string[];
   skills: string[];
   links?: { label: string; url: string }[];
+  /** Projects built in this role; each links to its case study (and repo, if public). */
+  projects?: { projectId: string; label: string; repoUrl?: string }[];
 }
 
 export interface SkillGroup {

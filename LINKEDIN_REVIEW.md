@@ -109,17 +109,18 @@ If you need AI agents, automation or ML features built end to end, let's talk.
 
 **Improved: copy-paste**
 
-**AI Engineer, Sigma Evolution (Internship)**
+**AI Engineer, Sigma Evolution (Internship, Aug – Oct 2026)**: also set the end date to Oct 2026 on LinkedIn.
 ```
-Building AI-powered full-stack products on industry-level projects.
+Built AI-powered full-stack products on industry-level projects: Zufishan, SigmaWork AI Career Studio and the NikahMate app.
 • Built SigmaWork AI Career Studio: a profile-aware career coach, an ATS-ready resume maker with PDF export, and a five-question mock-interview flow with feedback on every answer (React, TypeScript, tRPC, Drizzle ORM, MySQL).
-• Building Zufishan, an AI-powered Islamic LMS: Gemini-based tutor grounded in published course content, English/Urdu/Arabic UI with right-to-left support, and Supabase auth with row-level security.
+• Built Zufishan, an AI-powered Islamic LMS: Gemini-based tutor grounded in published course content, English/Urdu/Arabic UI with right-to-left support, and Supabase auth with row-level security.
+• Built NikahMate, a Muslim matrimonial mobile app: React Native + Expo app, Fastify/TypeScript API, Supabase with Row-Level Security, real-time messaging and a Family/Wali workflow (github.com/MuhammadZeeshanAkhtar/Rishta).
 • Integrated LLM features with prompt engineering and guardrails, and connected AI modules to frontends through REST and tRPC APIs.
 ```
 
-**Software Engineer, U-JOY Limited (Part-time)**: only you know what you do here, so fill in the brackets:
+**Software Engineer, U-JOY Limited (Part-time)**: matches the portfolio; add specifics in the brackets if you like:
 ```
-Software engineering for U-JOY Limited, a UK-based consumer and e-commerce company (Manchester).
+Building and managing the company website for U-JOY Limited, a UK-based consumer and e-commerce company (Manchester).
 • [What you built or maintain, e.g. storefront features, internal tools, automations]
 • [Tech you use]
 • [A real outcome, only if you can stand behind it]
@@ -260,7 +261,7 @@ Government High School, Matric (2018–2020). No grades, activities or descripti
 
 **Improved (IIUI entry → Description):**
 ```
-CGPA: 3.35
+CGPA: 3.36
 Final Year Project: MindSense, Multimodal Depression Detection & Therapy System. 🏆 1st Position, Software Engineering Department, IIUI Career Expo 2026.
 Relevant coursework: [e.g. Machine Learning, Artificial Intelligence, Data Structures, Software Design & Architecture]
 ```
@@ -330,7 +331,7 @@ Each has a hook (first line), a 3-line outline and 3–5 hashtags. Fill in `[bra
 
 ### 1. Portfolio launch
 **Hook:** I rebuilt my portfolio around one question: "What can this person actually build?"
-- 7 projects with full case studies: problem → solution → architecture → tech → my role.
+- 8 projects with full case studies: problem → solution → architecture → tech → my role.
 - Featured: an AI agent that turns a messy inbox into categorised replies, CRM updates and follow-ups.
 - Built with React, TypeScript and Tailwind, frontend-only and deployed on GitHub Pages. Link: muhammadzeeshanakhtar.github.io/Portfolio
 

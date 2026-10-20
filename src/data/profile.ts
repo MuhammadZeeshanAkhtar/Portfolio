@@ -12,8 +12,8 @@ export const profile: Profile = {
   valueStatement: 'Building smart *AI products* that *solve real problems*.',
   about: [
     "I'm a Software Engineer focused on *AI and Machine Learning*. I build end-to-end products: data and models on one side, reliable APIs and clean web interfaces on the other.",
-    'My final-year project, MindSense, is a multimodal depression screening and therapy-support platform that analyses text, voice and facial expressions. Our team won *1st Position* in the Software Engineering Department at the IIUI Career Expo 2026.',
-    "Today I work part-time as a Software Engineer at U-JOY Limited, a UK-based consumer and e-commerce company, and as an AI Engineer intern at Sigma Evolution, where I build AI-powered full-stack products such as SigmaWork and Zufishan. I'm now focused on *AI agents and workflow automation* that take real business work off people's plates.",
+    'My key project, *MindSense*, is a full-stack web application for multimodal depression screening and therapy support. Our team trained its text, voice and video models ourselves, and it won *1st Position* in the Software Engineering Department at the IIUI Career Expo 2026.',
+    "I work part-time as a Software Engineer at U-JOY Limited, a UK-based consumer and e-commerce company, where I'm building and managing the company website. During my AI Engineer internship at Sigma Evolution (Aug–Oct 2026) I worked on the Zufishan web application, SigmaWork AI Career Studio and the NikahMate app. Next I'm going deeper into *AI agents and workflow automation*.",
   ],
   location: 'Islamabad, Pakistan',
   phoneDisplay: '+92 349 1725364',
@@ -35,8 +35,8 @@ export const profile: Profile = {
   quickFacts: [
     { label: 'Based in', value: 'Islamabad, Pakistan' },
     { label: 'Degree', value: 'BS Software Engineering, IIUI (2022–2026)' },
-    { label: 'Currently', value: 'Software Engineer @ U-JOY Limited · AI Engineer intern @ Sigma Evolution' },
-    { label: 'Focus', value: 'AI agents, automation, applied ML' },
+    { label: 'Currently', value: 'Software Engineer @ U-JOY Limited (part-time)' },
+    { label: 'Focus', value: 'Full-stack AI apps, applied ML, AI agents' },
   ],
-  focusAreas: ['AI Agents & Automation', 'Machine Learning', 'Computer Vision & NLP', 'Full-Stack AI Apps'],
+  focusAreas: ['Full-Stack AI Apps', 'Machine Learning', 'Computer Vision & NLP', 'AI Agents & Automation'],
 };

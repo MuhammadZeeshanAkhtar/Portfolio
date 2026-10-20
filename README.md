@@ -28,7 +28,7 @@ Everything on the site comes from these files. Change them, save, and the whole 
 | File | What it controls |
 |---|---|
 | `src/data/profile.ts` | Name, headline, value statement, About text, location, photo, CV link, socials (email, LinkedIn, GitHub, WhatsApp), quick facts |
-| `src/data/projects.ts` | All 7 projects and their case-study pages (problem, solution, features, architecture steps, tech, role, results, links, status). Order in the file = order on the site; `featured: true` puts a project in the big card at the top. |
+| `src/data/projects.ts` | All 8 projects and their case-study pages (problem, solution, features, architecture steps, tech, role, results, links, status). Order in the file = order on the site (full-stack web & apps, then machine learning, then AI agents); `featured: true` puts a project in the big card at the top. |
 | `src/data/experience.ts` | Experience timeline |
 | `src/data/skills.ts` | Skill groups and chips |
 | `src/data/certifications.ts` | Certifications (`highlight: true` = large card) |
@@ -70,7 +70,7 @@ URL, Open Graph/Twitter image URLs, `sitemap.xml` and `robots.txt`. The build us
 ```
 src/
   data/          ← all content (edit these)
-  sections/      ← home-page sections (Hero, About, Featured, Projects, Experience, Skills, Credentials, Education, Contact)
+  sections/      ← home-page sections (Hero, About, Featured, Projects, Experience, Skills, Certificates, Education, Contact)
   pages/         ← Home, ProjectDetail (/projects/:id), Edit (/edit), NotFound
   components/    ← Navbar, Footer, ProjectCard, ArchitectureFlow (HTML diagram), LinkButton, …
   lib/           ← content store (data + local edits), theme, safe localStorage helpers
