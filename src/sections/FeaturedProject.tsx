@@ -15,7 +15,7 @@ export function FeaturedProject() {
   return (
     <section aria-labelledby="featured-title" className="pb-8">
       <div className="container-page">
-        <SectionHeading id="featured-title" eyebrow="Featured project" title="My key project: multimodal AI for *mental health*" />
+        <SectionHeading id="featured-title" eyebrow="Featured project" title="My key project: MindSense, AI for *mental health*" />
         <Reveal>
           <article className="card grid grid-cols-1 overflow-hidden lg:grid-cols-[0.95fr_1.05fr]">
             <Link to={`/projects/${project.id}`} tabIndex={-1} aria-hidden="true" className="grid grid-cols-1">
