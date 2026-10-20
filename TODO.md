@@ -29,7 +29,7 @@ Placeholders in `src/data/` start with `TODO:`. On the live site they appear as 
 ## Assets
 
 - [ ] **Project screenshots:** none yet, so each project uses a generated architecture cover. Add images to `public/assets/` and to each project's `images` array.
-- [ ] **CV:** `public/assets/Muhammad_Zeeshan_Akhtar_CV.pdf` is a copy of `Zeeshan(CV).pdf`. It lists *Sigma Evaluation*, *Vertex Tech (Data Engineering Intern)* and *2B Vision Technologies*, which don't match LinkedIn, and it doesn't list U-JOY Limited. Update the CV and replace the file (keep the same name).
+- [x] **CV:** `public/assets/Muhammad_Zeeshan_Akhtar_CV.pdf` is the updated 2026 CV (U-JOY, Sigma Evolution, VORTEX TECH, CGPA 3.36; no AI agent projects). To update it again, replace the file and keep the same name.
 
 ## Contact details used (please double-check)
 
